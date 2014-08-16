@@ -1,7 +1,14 @@
 {
   "name": "isthereafuckingrockiesgame",
   "version": "0.0.0",
-  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bbonet/isThereAFuckingGame.git"
+  },
+  "dependencies": {
+    "express": "^4.8.4",
+    "logfmt": "^1.1.2"
+  },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-uglify": "~0.4.0",
@@ -13,6 +20,6 @@
     "grunt-minjson": "~0.1.1"
   },
   "engines": {
-    "node": ">=0.8.0"
+    "node": ">=0.10.x"
   }
 }
