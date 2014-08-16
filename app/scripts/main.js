@@ -2,8 +2,8 @@
   'use strict';
 
   // --------------------------------------------------------------------------------
-  var homeTeam = 'The Rockies',     // Change this to set a new home team
-      homeStadium = 'Coors Field';  // Change this to set a new home stadium
+  var homeTeam = 'The Avs',     // Change this to set a new home team
+      homeStadium = 'Pepsi Center';  // Change this to set a new home stadium
   // --------------------------------------------------------------------------------
 
   var url = 'data/schedule.min.json',

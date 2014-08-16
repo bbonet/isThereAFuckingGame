@@ -9,8 +9,10 @@ import csv
 import json
 from sys import argv
 
-my_team = input('Enter your team name as it appears in the schedule: ')
-source_csv = input('Enter the path to your schedule csv file: ')
+my_team = 'Colorado'
+source_csv = '/Users/bbonet/Projects/isThereAFuckingGame/full.csv'
+# my_team = input('Enter your team name as it appears in the schedule: ')
+# source_csv = input('Enter the path to your schedule csv file: ')
 
 destination_json = 'app/data/schedule.json'
 
