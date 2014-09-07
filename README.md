@@ -12,9 +12,9 @@ First, the compiled code is not checked in so you will have to build the project
 
 Because this project makes same-origin requests you will have to use some sort of container to run the code. The simplest way is to use python but tomcat jetty etc will work fine.
     
-    cd <location-of-the-downloaded-project>/dist
-    python -m SimpleHTTPServer
-    (Note: for python 3.x run python -m http.server)
+    I used node.js/express to run the server.
+    Go to your project folder and run node server.js
+    I deployed to heroku and set the server.js up in the proc file.
     
 Create a version for your favorite team
 -------
@@ -26,19 +26,16 @@ There are three things that need to be done to add a team:
 - Edit the homeTeam and homeStadium variables in <project>/app/scripts/main.js
 
 ####Retrieve a schedule and generate the json:
-- Go to http://mlb.mlb.com/mlb/schedule/team_by_team.jsp
-- Click on Regular Season Schedule under desired team. 
-- Scroll down to "In this Section". Click on Downloadable Schedule.
-  - http://colorado.rockies.mlb.com/schedule/downloadable.jsp?c_id=col&year=2014
+- Go to http://avalanche.nhl.com/club/page.htm?id=32591
 - Download Full Season Schedule CSV
 - Run python csv2json.py <Full Schedule.csv> app/data/schedule.json
 - Run Grunt.
 
 ####Edit the HTML:
-- You will need to change the title and meta data to be about your team rather than rockies
+- You will need to change the title and meta data to be about your team rather than the avs
 
 
-Many many thanks to [isthereagiantsgametoday](https://github.com/lforrest/isthereagiantsgametoday) for the inspiration.
+Many many thanks to [isthereafuckingrockiesgametoday](https://github.com/baer/isThereAFuckingGame) for the inspiration.
 
 License
 -------
