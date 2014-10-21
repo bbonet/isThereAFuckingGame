@@ -3,7 +3,7 @@
 
   // --------------------------------------------------------------------------------
   var homeTeam = 'The Avs',     // Change this to set a new home team
-      homeStadium = 'Pepsi Center';  // Change this to set a new home stadium
+      homeStadium = 'Pepsi Center - Denver - CO';  // Change this to set a new home stadium
   // --------------------------------------------------------------------------------
 
   var url = 'data/schedule.min.json',
